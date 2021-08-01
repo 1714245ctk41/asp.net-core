@@ -1,0 +1,30 @@
+﻿@model HomeDetailsViewModel
+
+@{
+    ViewBag.Title = "Employee Details";
+    var photoPath = "~/images/" + (Model.Employee.PhotoPath ?? "ed50006975e3886a8aead1dd15e398b6.jpg");
+}
+
+
+        <div class="card-deck col-12 m-auto">
+            <div class="card m-8">
+                <div class="card-header">
+                    <h3>@Model.Employee.Name</h3>
+                    <p>@Model.Employee.Email</p>
+                    <p>@Model.Employee.Department</p>
+                </div>
+                <img class="card-img-top" width="100%" src="@photoPath" asp-append-version="true" />
+                <div class="card-footer text-center">
+                    <a asp-controller="home" asp-action="index" class="btn btn-primary">Back</a>
+                    <a  asp-action="edit" asp-controller="home" asp-route-id="@Model.Employee.Id" class="btn btn-primary">Edit</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+
+                </div>
+            </div>
+ 
+    </div>
+
+
+    @section Scripts{
+        <script src="~/js/CustomScript.js"></script>
+    }
