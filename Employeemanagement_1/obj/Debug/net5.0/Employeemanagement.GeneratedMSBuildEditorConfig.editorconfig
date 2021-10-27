@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Employeemanagement
+build_property.ProjectDir = D:\old_learn\API-net_learn\API-net_C#\ASP-core_learn_from_youtube\ASP_practive\Employeemanagement\Employeemanagement_1\

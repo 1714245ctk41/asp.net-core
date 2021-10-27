@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GPAnyr1xHnV2HK9gHIZ7gRwMCbSArzplEgAiKl31RUJ+v2kwbdYOglYjwEEj2af2UE9sYh+zaUo/yLLc9Uirhw==",
+  "dgSpecHash": "VMVfwdohHfu0mXlgtxb1QpLExlPMncIS+P4NwnVeOQFxtwYeBHyEaoGOJPzaBTsSFTWxp3B8FNkz1jZ0INOXjw==",
   "success": true,
-  "projectFilePath": "D:\\API-net_learn\\API-net_C#\\ASP-core_learn_from_youtube\\ASP_practive\\Employeemanagement\\Employeemanagement_1\\Employeemanagement.csproj",
+  "projectFilePath": "D:\\old_learn\\API-net_learn\\API-net_C#\\ASP-core_learn_from_youtube\\ASP_practive\\Employeemanagement\\Employeemanagement_1\\Employeemanagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
